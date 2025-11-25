@@ -17,6 +17,10 @@
 .border-subtle{
     border-bottom: 0.1px solid gray;
 }
+.link{
+    text-decoration: none;
+    color: #5e686e
+}
 
 .project-card {
   /* width: 300px; */
@@ -40,16 +44,11 @@
   transition: max-height 2s ease;
 }
 .project-card:hover .card-details {
-  max-height: 200px; /* adjust based on how much content you have */
+  max-height: 200px;
   padding: 15px 20px;
 }
 
 .email{
     font-size: 10px;
     padding-top: 10px;
-}
-
-.link{
-    text-decoration: none;
-    color: #5e686e
 }
