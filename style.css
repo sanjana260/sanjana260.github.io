@@ -17,3 +17,39 @@
 .border-subtle{
     border-bottom: 0.1px solid gray;
 }
+
+.project-card {
+  /* width: 300px; */
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.card-header {
+  padding: 20px;
+  background: #4A90E2;
+  color: white;
+}
+
+.card-details {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  transition: max-height 2s ease;
+}
+.project-card:hover .card-details {
+  max-height: 200px; /* adjust based on how much content you have */
+  padding: 15px 20px;
+}
+
+.email{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: #5e686e
+}
