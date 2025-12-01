@@ -24,6 +24,7 @@
 
 .project-card {
   /* width: 300px; */
+  /* max-width:20%; */
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
@@ -45,10 +46,16 @@
 }
 .project-card:hover .card-details {
   max-height: 200px;
+  /* max-width:100% !important;
+  overflow:visible; */
   padding: 15px 20px;
 }
 
 .email{
     font-size: 10px;
     padding-top: 10px;
+}
+
+.bottom-right{
+  position: absolute; bottom:0; right:0
 }
