@@ -1,0 +1,32 @@
+[
+    {
+        "Title":"Automatic Fall Detection and Context Identification (NVIDIA Dell Hackathon) ",
+        "Description":"Used Computer Vision techniques to detect people falling in live video footage, including extraction of useful contextual information, like speed of fall, point of first contact with floor, contact with nearby objects, falling object detection. YOLOv8-pose was used for fall detection. Bytetrack was used for ID tracking. The UI was created with Flask, streaming live footage from webcam to the Dell GB10 GPU, where live inference took place. ",
+        "Link":"https://github.com/sanjana260/Fall_Detection",
+        "Title_highlight":[1,2]
+    },
+    {
+        "Title":"Gerbil Detection and Tracking in Video Footage",
+        "Description":"Using Computer Vision techniques to identify gerbils, contributing to research studying mammalian communication. My work involves using advanced deep learning techniques to classify and track these gerbils in video footage.",
+        "Link":"https://github.com/sanjana260/Gerbil-Detection-and-Tracking",
+        "Title_highlight":[1]
+    },
+    {
+        "Title":"GenAI powered Learning Portal",
+        "Description":"During my final year at the IITM BS program, I collaborated with a team of 7 to create a dummy version of the University portal and integrated various GenAI features into the portal interface. Utilized Retrieval Augmented Generation (RAG) to generate lecture summaries from transcripts, improving the accessibility of course content. Also created a chatbot to answer student queries and enabled personalized practice questions generation based on student requirements, and a fully functioning API.",
+        "Link":"https://github.com/LekshmiSus/soft-engg-project-may-2024-se-may-32",
+        "Title_highlight":[0]
+    },
+    {
+        "Title":"Ticket Booking Application",
+        "Description":"Developed a full-stack application for ticket booking and show scheduling, with a user-friendly interface and comprehensive functionality. Implemented user authentication and login systems using JWT tokens and cookie management, along with a fully operational API facility, and a frontend built with VueJS. Designed and scheduled asynchronous tasks using Celery and Redis, which also served as a caching solution for API requests and created an automatic analytical report generation system for Admin users.",
+        "Link":"https://github.com/sanjana260/Modern-App-Development-II-Final-Project",
+        "Title_highlight":[2]
+    },
+    {
+        "Title":"Analysis of Mergers and Acquisitions in India",
+        "Description":"Conducted data analysis on data related to mergers and acquisitions in India, identifying general patterns in the merger landscape utilizing econometrics and statistical techniques. We evaluated the economic impact of mergers on company stock prices using event study methodology, conducted ratio analysis, and performed regression and granger causality to quantify the influence of macroeconomic variables on merger activity in the country. We authored a research paper detailing our findings and presented it to a panel of professors and industry professionals, showcasing strong analytical and communication skills.",
+        "Link":"https://drive.google.com/file/d/1bgwupOE1UBu_PcZih37NOLzL8ms0deQg/view?usp=sharing",
+        "Title_highlight":[0]
+    }
+]
